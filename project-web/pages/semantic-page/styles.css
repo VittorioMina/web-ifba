@@ -1,0 +1,94 @@
+@import url('../../style.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    padding: 20px;
+}
+
+header {
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+section {
+    flex: 3;
+    margin-right: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+section h2 {
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article h3 {
+    margin-bottom: 10px;
+    color: var(--secondary-color);
+}
+
+aside {
+    flex: 1;
+    background-color: var(--background-secondary);
+    padding: 20px;
+    border-radius: var(--border-radius);
+}
+
+aside h2 {
+    margin-bottom: 15px;
+    color: var(--primary-color);
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 10px 0;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    border-radius: var(--border-radius);
+}
