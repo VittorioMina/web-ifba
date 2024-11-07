@@ -33,7 +33,6 @@ body {
     line-height: 1.6;
     background-color: var(--background-color);
     color: var(--text-color);
-    padding: 20px;
 }
 
 .container {
@@ -47,7 +46,6 @@ header {
     color: var(--header-text-color);
     padding: 20px 0;
     text-align: center;
-    border-radius: var(--border-radius);
 }
 
 header h1 {
@@ -64,7 +62,6 @@ main {
     align-items: center;
     background-color: var(--section-bg-color);
     padding: 20px;
-    border-radius: var(--border-radius);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
@@ -75,7 +72,6 @@ main {
     background-color: var(--button-bg-color);
     color: var(--button-text-color);
     text-decoration: none;
-    border-radius: var(--border-radius);
     transition: background-color 0.3s ease;
 }
 
@@ -89,5 +85,4 @@ footer {
     padding: 10px 0;
     background-color: var(--footer-bg-color);
     color: var(--footer-text-color);
-    border-radius: var(--border-radius);
 }

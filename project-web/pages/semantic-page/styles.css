@@ -1,26 +1,5 @@
 @import url('../../style.css');
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    background-color: var(--background-color);
-    color: var(--text-color);
-    padding: 20px;
-}
-
-header {
-    background-color: var(--primary-color);
-    color: #ffffff;
-    padding: 20px 0;
-    text-align: center;
-}
-
 header h1 {
     margin-bottom: 10px;
 }
@@ -55,7 +34,6 @@ section {
     margin-right: 20px;
     background-color: #ffffff;
     padding: 20px;
-    border-radius: var(--border-radius);
 }
 
 section h2 {
@@ -76,19 +54,9 @@ aside {
     flex: 1;
     background-color: var(--background-secondary);
     padding: 20px;
-    border-radius: var(--border-radius);
 }
 
 aside h2 {
     margin-bottom: 15px;
     color: var(--primary-color);
-}
-
-footer {
-    text-align: center;
-    margin-top: 40px;
-    padding: 10px 0;
-    background-color: var(--primary-color);
-    color: #ffffff;
-    border-radius: var(--border-radius);
 }
