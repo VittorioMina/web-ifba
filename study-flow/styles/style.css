@@ -1,3 +1,7 @@
+@import url('./input-text.css');
+@import url('./navbar.css');
+@import url('./form.css');
+
 :root {
     --primary-color: #F2293A;
     --secondary-color: #590202;

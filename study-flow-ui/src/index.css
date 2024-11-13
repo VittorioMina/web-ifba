@@ -1,0 +1,20 @@
+@import url(./styles/input-text.scss);
+
+:root {
+    --primary-color: #F2293A;
+    --secondary-color: #590202;
+    --text-color: #F2F2F2;
+    --background-color: #1a1a1a;
+    --background-secondary: #2b2b2b;
+    --gray-color: #4e4e4e;
+    --white-color: #F2F2F2;
+    --transparent-red: rgba(255, 0, 0, 0.068);
+    --border-radius: 10px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--text-color);
+}

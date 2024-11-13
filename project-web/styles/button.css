@@ -1,0 +1,18 @@
+.button {
+    transition: .3s;
+    cursor: pointer;
+    padding: 10px 16px;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--header-text-color);
+    font-weight: 600;
+    border-radius: var(--border-radius);
+}
+
+.button:hover {
+    opacity: .5;
+}
+
+.button-edit {
+    background-color: #4CAF50;
+}

@@ -1,0 +1,13 @@
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 50%;
+    
+}
+
+@media(width < 1024px) {
+    form {
+        width: 100%;
+    }   
+}
