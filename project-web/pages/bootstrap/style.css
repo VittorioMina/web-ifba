@@ -1,0 +1,7 @@
+@import url(../../style.css);
+
+section {
+    border: 1px solid black;
+    padding: 24px;
+    border-radius: 10px;
+}
