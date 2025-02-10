@@ -1,0 +1,76 @@
+.register-product {
+    margin: 20px auto;
+    width: 70%;
+    padding: 20px;
+    border-radius: 4px;
+
+    h3 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .error {
+        color: #d8000c;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+
+    .success {
+        color: #4f8a10;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 15px;
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+
+        .form-group {
+            margin-bottom: 15px;
+
+            label {
+                display: block;
+                margin-bottom: 5px;
+                font-weight: bold;
+            }
+
+            input,
+            textarea {
+                width: 100%;
+                padding: 16px 8px;
+                background-color: var(--background-secondary);
+                border: 1px solid var(--gray-color);
+                border-radius: var(--border-radius);
+                color: var(--color-white)
+            }
+
+            textarea {
+                resize: vertical;
+                min-height: 80px;
+            }
+        }
+
+        button {
+            padding: 10px;
+            border: none;
+            border-radius: var(--border-radius);
+            background-color: var(--primary-color);
+            color: var(--color-white);
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+
+            &:hover {
+                transition: .3s;
+                opacity: .5;
+            }
+
+            &:disabled {
+                opacity: .3;
+                cursor: not-allowed;
+            }
+        }
+    }
+}

@@ -26,13 +26,16 @@ nav {
         text-decoration: none;
     }
     
-    .logo {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        font-size: 18px;
-        font-weight: 700;
-        color: var(--text-color);
+    .logo { 
+        .link {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 18px;
+            font-weight: 700;
+            color: var(--text-color);
+
+        }
     }
     
     .links {

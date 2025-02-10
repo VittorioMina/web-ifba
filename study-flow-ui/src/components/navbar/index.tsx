@@ -1,12 +1,16 @@
-import './index.scss'
+import React from 'react';
+import { Link } from 'react-router-dom';
+import './index.scss';
 
 function Navbar() {
     return (
         <>
             <nav id="nav">
                 <div className="logo">
-                    <img src="/assets/images/logo.png" alt="StudyFlow logo" />
-                    <span>StudyFlow</span>
+                    <Link className="link" to="/">
+                        <img src="/assets/images/logo.png" alt="StudyFlow logo" />
+                        <span>StudyFlow</span>
+                    </Link>
                 </div>
                 <div className="search-input">
                     <input
@@ -19,7 +23,7 @@ function Navbar() {
                 <div className="links">
                     <div className="navbar-link">
                         <img className="link-icon" src="/assets/svgs/pin-icon.svg" alt="icon" />
-                        <a href="/pages/tasks/index.html">Minhas Tarefas</a>
+                        <Link to="/register">Cadastrar Produto</Link>
                     </div>
                 </div>
             </nav>
@@ -27,8 +31,10 @@ function Navbar() {
             <nav id="nav-mobile">
                 <div className="logo">
                     <div>
-                        <img src="/assets/images/logo.png" alt="StudyFlow logo" />
-                        <span>StudyFlow</span>
+                        <Link to="/">
+                            <img src="/assets/images/logo.png" alt="StudyFlow logo" />
+                            <span>StudyFlow</span>
+                        </Link>
                     </div>
                 </div>
                 <div className="search-input">
@@ -42,11 +48,11 @@ function Navbar() {
 
                 <div className="navbar-link">
                     <img className="link-icon" src="/assets/svgs/pin-icon.svg" alt="icon" />
-                    <a href="/pages/tasks/index.html">Tarefas</a>
+                    <Link to="/register">Cadastrar Produto</Link>
                 </div>
             </nav>
         </>
-    )
+    );
 }
 
-export default Navbar
+export default Navbar;
